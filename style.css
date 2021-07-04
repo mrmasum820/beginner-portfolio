@@ -2,9 +2,12 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 section {
+    margin-bottom: 150px;
+}
+.section-flex {
     display: flex;
-    margin-bottom: 100px;
 }
 .first-section {
     background: url(images/top-banner.png);
@@ -34,4 +37,37 @@ h1 {
     background-image: linear-gradient(lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dream-big {
+    background: url(images/dream-bg.png) no-repeat;
+    background-position: right;
+}
+.developer-bg {
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.experiences {
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: bottom left;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
